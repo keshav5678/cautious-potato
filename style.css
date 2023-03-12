@@ -1,1 +1,6 @@
-
+body {font-family: arial;}
+nav {
+  display: flex;
+  float: left;
+  padding: 10px;
+}
