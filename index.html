@@ -3,28 +3,47 @@
   <head>
     <title>keshav website</title>
     <style>
-      body {
-        font-family: arial;
-      }
-      button {background: blue; border: none; color: white; padding: 10px; border-radius: 5px;}
-    </style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+	body {font-family: 'Roboto', sans-serif;}
+	.nav {
+	  display: flex;
+	  float: left;
+	  padding: 10px;
+	  background: #f1f1f1;
+	  border-radius: 5px;
+	  margin: 5px;
+	  transition: 0.1s;
+	  width: 22.5%;
+    border: none;
+    text-decoration: none;
+    color: black;
+	}
+	.nav:hover {
+	  background: blue;
+	  color: white;
+	  transition: 0.3s;
+	}
+	</style>
   </head>
   <body>
-    <h1>keshav website</h1>
-    <hr>
-    <p>welcome to keshav website</p>
-    <p>this website is still under construction</p>
-    <p>please mind waiting</p>
-    <hr>
-    <h1>What you can do here now</h1>
+    <div style="width: 100%;">
+	  <button class="nav" onclick="alert('this is the home page');">home</button>
+	  <button class="nav" onclick="alert('no current events');">leaderboard</button>
+	  <button class="nav" onclick="alert('no events recorded');">winners</button>
+	  <a class="nav" href="https://www.youtube.com/@K_eshav">Youtube channel</a>
+	</div>
+  <div style="padding: 20px;">
+    <h1>Tryouts still in progress</h1>
+    <p>this website will have functionality after tryouts</p>
+    <h2>Well, what can i do now?</h2>
     <ul>
-      <li><a href="https://www.youtube.com/@K_eshav">visit my youtube channel</a></li>
-      <li>become a cool person</li>
-      <li>do cool stuff</li>
-      <li>dont get disappointed</li>
-      <li>get inspired to watch Gigiachad memes</li>
+      <li>subscribe to keshav channel very cool</li>
+      <li>watch gigachad memes</li>
+      <li>watch even more gigachad memes</li>
+      <li>be sad that only when there atleast 1 super VIP there will be full website :(((</li>
     </ul>
-    <p>please note that this is not the site it is built upto this so thatevryone can copy the link</p>
-    <button onclick="alert('work in progress');">I'm a VIP</button> 
+    <h1>News</h1>
+    <h3>tryouts will soon be removed and automatic ranking of VIP will take place because of all the angry letters sent to chucky cheese thinking that they created this. and also to remove the disappointment</p>
+  </div>
   </body>
 </html>
